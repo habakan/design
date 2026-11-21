@@ -20,3 +20,7 @@ npm install github:habakan/design#v0.1.0
 
 `tokens.json` を直して `npm run build` で `tokens.css` を作り直し、両方をコミットしてタグを打つ。
 方針が変わるなら `DESIGN.md` の決定ログにも書く。
+
+## ライセンス
+
+MIT。書体 (BIZ UDPGothic、IBM Plex Mono) は含まず、それぞれ SIL Open Font License で Google Fonts から読む。
