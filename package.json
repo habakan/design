@@ -8,8 +8,15 @@
     "./tokens.json": "./tokens.json",
     "./tailwind-preset.js": "./tailwind-preset.js"
   },
-  "files": ["tokens.css", "tokens.json", "tailwind-preset.js", "DESIGN.md"],
+  "files": [
+    "tokens.css",
+    "tokens.json",
+    "tailwind-preset.js",
+    "DESIGN.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "node scripts/build.mjs"
-  }
+  },
+  "license": "MIT"
 }
