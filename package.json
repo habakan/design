@@ -1,0 +1,15 @@
+{
+  "name": "habakan-design",
+  "version": "0.1.0",
+  "description": "Design tokens for habakan.com and related projects",
+  "type": "module",
+  "exports": {
+    "./tokens.css": "./tokens.css",
+    "./tokens.json": "./tokens.json",
+    "./tailwind-preset.js": "./tailwind-preset.js"
+  },
+  "files": ["tokens.css", "tokens.json", "tailwind-preset.js", "DESIGN.md"],
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  }
+}

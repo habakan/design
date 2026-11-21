@@ -1,0 +1,28 @@
+/* 生成物。tokens.json を直して npm run build する */
+:root {
+  color-scheme: light;
+  --font-sans: "BIZ UDPGothic", -apple-system, BlinkMacSystemFont, "Hiragino Sans", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --ground: #f2f2f0;
+  --surface: #fbfbfa;
+  --ink: #16171a;
+  --muted: #4d4f55;
+  --rule: #bdbdb8;
+  --rule-faint: #d4d4d0;
+  --rule-strong: #16171a;
+  --paint: #24384c;
+  --paint-ink: #f2f2f0;
+}
+
+[data-scheme="dark"] {
+  color-scheme: dark;
+  --ground: #1b1c1e;
+  --surface: #242528;
+  --ink: #ececea;
+  --muted: #a3a4a8;
+  --rule: #3d3e42;
+  --rule-faint: #2f3033;
+  --rule-strong: #ececea;
+  --paint: #ef6a3a;
+  --paint-ink: #1b1c1e;
+}
